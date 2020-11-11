@@ -1,7 +1,5 @@
 const mongo = require('../database');
-const {
-    default: UserAlreadyRegisteredException
-} = require('../exceptions/UserAlreadyRegisteredException');
+const UserAlreadyRegisteredException = require('../exceptions/UserAlreadyRegisteredException');
 
 
 // route handlers
